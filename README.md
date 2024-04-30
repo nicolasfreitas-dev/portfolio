@@ -1,2 +1,3 @@
-# portfolio-pessoal
-Repositório destinado ao meu portfólio pessoal.
+# Portfólio pessoal
+
+Portfólio desenvoldido em React, Javascript e Tailwindcss.
