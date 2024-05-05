@@ -12,38 +12,46 @@ export function Home () {
                         de usuário.
                     </p>
                 </div>
-                <div>
-                    <a
-                        href="./../assets/CV - Nicolas Freitas.pdf"
-                        download="CV - Nicolas Freitas.pdf"
+                <div className="w-96 h-20 flex items-center justify-center gap-8">
+                    <button 
+                    className="w-32 h-10 bg-detailColorOne rounded-3xl flex justify-center items-center cursor-pointer hover:scale-110"
                     >
-                        Download CV
-                    </a>
-                    <button>
+                        <a
+                            href="./../assets/CV - Nicolas Freitas.pdf"
+                            download="CV - Nicolas Freitas.pdf"
+                            className="font-bold text-base text-primaryColor"
+                        >
+                            Download CV
+                        </a>
+                    </button>
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110">
                         <a
                             href="https://github.com/nicolasfreitas-dev"
                             rel="external"
                             target="_blank"
+                            className="flex items-center justify-center"
                         >
-                            <i className="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github text-[30px] text-primaryColor"></i>
                         </a>
                     </button>
-                    <button>
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110">
                         <a
                             href="https://www.linkedin.com/in/nicolasfreitas-dev/"
                             rel="external"
                             target="_blank"
+                            className="flex items-center justify-center"
                         >
-                            <i className="fa-brands fa-linkedin"></i>
+                            <i className="fa-brands fa-linkedin text-[30px] text-primaryColor"></i>
                         </a>
                     </button>
-                    <button>
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110">
                         <a
                             href="https://www.instagram.com/nicolasfreitas__/"
                             rel="external"
                             target="_blank"
+                            className="flex items-center justify-center"
                         >
-                            <i className="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram text-[30px] text-primaryColor"></i>
                         </a>
                     </button>
                 </div>

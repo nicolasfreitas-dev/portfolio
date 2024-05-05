@@ -9,8 +9,8 @@ export default {
     colors: {
       primaryColor: "#242424",
       secondaryColor: "#FFFFFF",
-      terciaryColor: "#3F3F3F",
-      detailColorOne: "#FF4900",
+      terciaryColor: "",
+      detailColorOne: "#7e22ce",
       detailColorTwo: "#B3B3B3",
     },
   },
