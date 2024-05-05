@@ -1,9 +1,9 @@
-import { Header } from "./components/header";
-import { Home } from "./components/home";
-import { About } from "./components/about";
-import { Skills } from "./components/skills";
-import { Projects } from "./components/projects";
-import { Contato } from "./components/contato";
+import { Header } from "./components/Header/header";
+import { Home } from "./components/Home/home";
+import { About } from "./components/About/about";
+import { Skills } from "./components/Skills/skills";
+import { Projects } from "./components/Projects/projects";
+import { Contato } from "./components/Contato/contato";
 
 function App() {
     return (

@@ -1,12 +1,14 @@
+import "./header.css";
+
 export function Header() {
     return (
         <header>
             <nav className="flex flex-row justify-between items-center w-full h-16 px-4 py-5 font-bold bg-primaryColor" id="navbar">
                 <div className="ml-5">
                     <img
-                    id="logotipo"
                     src=""
-                    alt="Logo"
+                    alt="logo"
+                    className=""
                     />
                 </div>
                 <div className="flex flex-row justify-between gap-5 mr-5">

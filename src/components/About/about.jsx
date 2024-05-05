@@ -1,13 +1,14 @@
-import profilePic from './../assets/perfil.jpg'
+import profilePic from './../../assets/perfil.jpg';
+import "./about.css";
 
 export function About() {
     return (
-        <article className="w-full h-screen bg-primaryColor">
-            <div>
-                <h2 className='text-4xl font-bold'>
+        <article className="w-full h-screen bg-primaryColor flex items-center justify-evenly">
+            <div className="w-1/3">
+                <h2 className='text-4xl font-bold mb-5'>
                     Sobre mim<span className='text-detailColorOne'>.</span>
                 </h2>
-                <p>
+                <p className='text-justify'>
                     Olá! Me chamo Nicolas Freitas, Cientista Ambiental de
                     formação e sempre trabalhei com organização, planejamento
                     estratégico e solução de problemas. Esse são alguns dos
@@ -17,12 +18,14 @@ export function About() {
                     usuário, performance, responsividade e SEO.
                 </p>
             </div>
-            <div className="">
-                <img
-                    src={profilePic}
-                    alt="Foto de perfil"
-                    className="w-60 h-60"
-                />
+            <div className="w-1/4">
+                <div className='flex justify-center items-center w-80 h-80'>
+                    <img
+                        src={profilePic}
+                        alt="Foto de perfil"
+                        className="w-72 h-72"
+                    />
+                </div>
             </div>
         </article>
     );
