@@ -2,10 +2,10 @@ import profilePic from './../assets/perfil.jpg'
 
 export function About() {
     return (
-        <article>
+        <article className="w-full h-screen bg-primaryColor">
             <div>
-                <h2>
-                    Sobre mim<span>.</span>
+                <h2 className='text-4xl font-bold'>
+                    Sobre mim<span className='text-detailColorOne'>.</span>
                 </h2>
                 <p>
                     Olá! Me chamo Nicolas Freitas, Cientista Ambiental de
