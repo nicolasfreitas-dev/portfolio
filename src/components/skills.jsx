@@ -9,40 +9,40 @@ import sassImg from "./../assets/sass-svgrepo-com.svg";
 
 export function Skills() {
     return (
-        <section className="w-full h-screen bg-primaryColor">
+        <section className="w-full h-screen bg-primaryColor flex flex-col items-center justify-start">
             <h2 className="text-4xl font-bold">
                 Habilidades<span className="text-detailColorOne">.</span>
             </h2>
-            <div>
-                <div>
+            <div className="w-full h-full flex items-start justify-center gap-10 mt-10">
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={htmlImg} alt="" />
                     <span>HTML 5</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={cssImg} alt="" />
                     <span>CSS 3</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={javascriptImg} alt="" />
                     <span>Javascript</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={gitImg} alt="" />
                     <span>GIT</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={reactImg} alt="" />
                     <span>React</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={tailwindcssImg} alt="" />
                     <span>Tailwindcss</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={typescriptImg} alt="" />
                     <span>Typescript</span>
                 </div>
-                <div>
+                <div className="flex flex-col items-center justify-center gap-2 size-28 bg-terciaryColor hover:rotate-2">
                     <img className="size-[60px]" src={sassImg} alt="" />
                     <span>Sass</span>
                 </div>

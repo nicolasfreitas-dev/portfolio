@@ -9,8 +9,9 @@
     left: 0;
     width: 100%;
     background-color: #7e22ce;
+    color: #242424;
 }
 
 .navbar a:hover {
-    color: #242424;
+    color: #d8b4fe;
 }
