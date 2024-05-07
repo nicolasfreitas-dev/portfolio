@@ -11,6 +11,7 @@ export default {
       secondaryColor: "#FFFFFF",
       terciaryColor: "#404040",
       detailColorOne: "#7e22ce",
+      detailColorOneHover: "#9333ea",
       detailColorTwo: "#B3B3B3",
     },
   },

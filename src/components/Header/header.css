@@ -1,12 +1,13 @@
-.navbar {
+.navbar-fixed {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #7e22ce;
-    color: #242424;
+    color: #FFFFFF;
+    transition: all 0.9 ease-in-out;
 }
 
-.navbar a:hover {
-    color: #d8b4fe;
+.navbar-fixed a:hover {
+    color: #3b0764;
 }

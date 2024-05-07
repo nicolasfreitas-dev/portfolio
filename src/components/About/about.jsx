@@ -1,5 +1,4 @@
 import profilePic from './../../assets/perfil.jpg';
-import "./about.css";
 
 export function About() {
     return (
@@ -23,7 +22,7 @@ export function About() {
                     <img
                         src={profilePic}
                         alt="Foto de perfil"
-                        className="w-72 h-72"
+                        className="w-72 h-72 rounded-full"
                     />
                 </div>
             </div>
