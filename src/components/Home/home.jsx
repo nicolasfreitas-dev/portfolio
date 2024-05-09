@@ -15,7 +15,7 @@ export function Home () {
                 <div className="w-96 h-20 flex items-center justify-center gap-8">
                     <button 
                     className="w-32 h-10 bg-detailColorOne rounded-3xl flex justify-center items-center cursor-pointer hover:scale-110
-                    hover:bg-detailColorOneHover"
+                    hover:bg-detailColorOneHover transition duration-300 ease-in"
                     >
                         <a
                             href="./../assets/CV - Nicolas Freitas.pdf"
@@ -25,7 +25,7 @@ export function Home () {
                             Download CV
                         </a>
                     </button>
-                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover">
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in">
                         <a
                             href="https://github.com/nicolasfreitas-dev"
                             rel="external"
@@ -35,7 +35,7 @@ export function Home () {
                             <i className="fa-brands fa-github text-[30px] text-secondaryColor"></i>
                         </a>
                     </button>
-                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover">
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in">
                         <a
                             href="https://www.linkedin.com/in/nicolasfreitas-dev/"
                             rel="external"
@@ -45,7 +45,7 @@ export function Home () {
                             <i className="fa-brands fa-linkedin text-[30px] text-secondaryColor"></i>
                         </a>
                     </button>
-                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover">
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in">
                         <a
                             href="https://www.instagram.com/nicolasfreitas__/"
                             rel="external"

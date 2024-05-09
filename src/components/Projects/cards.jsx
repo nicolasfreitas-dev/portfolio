@@ -1,17 +1,21 @@
-export function Cards () {
+export function Cards ({props}) {
     return (
-        <section>
+        <section className="w-96 h-96 mx-5">
                 <div>
-                    <img src="" alt="imagem projeto" />
-                    <h3>Título</h3>
-                    <p>descrição</p>
+                    <img 
+                    className="object-cover"
+                    src={props.image}
+                    alt={props.title}
+                    />
+                    <h3>{props.title}</h3>
+                    <p>{props.description}</p>
                 </div>
                 <div>
-                    <span>tech usada</span>
+                    <span>{props.stacks}</span>
                 </div>
                 <div>
-                    <button>Deploy</button>
-                    <button>GitHub</button>
+                    <button><a href={props.deploy}></a>Deploy</button>
+                    <button><a href={props.github}></a>GitHub</button>
                 </div>
         </section>
     )
