@@ -1,6 +1,6 @@
 export function Cards ({props}) {
     return (
-        <section className="w-96 h-96 mx-5">
+        <section className="w-96 h-96 hover:scale-110 transition duration-300 ease-in-out">
                 <div>
                     <img 
                     className="object-cover"
@@ -17,6 +17,7 @@ export function Cards ({props}) {
                     <button><a href={props.deploy}></a>Deploy</button>
                     <button><a href={props.github}></a>GitHub</button>
                 </div>
+                <div className=""></div>
         </section>
     )
 }

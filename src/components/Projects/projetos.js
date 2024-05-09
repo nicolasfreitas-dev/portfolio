@@ -43,5 +43,13 @@ export const projetos = [
         deploy: "",
         github: ""
     },
+    {
+        image: "",
+        title: "",
+        description: "",
+        stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
+        deploy: "",
+        github: ""
+    },
 ]
 
