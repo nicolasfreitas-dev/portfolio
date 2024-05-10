@@ -5,7 +5,7 @@ import audiobook from "./../../assets/audiobook.png";
 export const projetos = [
     {
         image: devburguer,
-        title: "Cardápio Digital - Dev Burguer",
+        title: "Cardápio Digital",
         description: "Página de cardápio digital para realização de pedidos de uma hamburgueria fictícia.",
         stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
         deploy: "https://cardapio-digital-nine.vercel.app/",
