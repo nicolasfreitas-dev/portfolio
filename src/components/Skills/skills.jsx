@@ -13,37 +13,37 @@ export function Skills() {
             <h2 className="text-4xl font-bold">
                 Habilidades<span className="text-detailColorOne">.</span>
             </h2>
-            <div className="w-full h-full flex items-start justify-center gap-12 mt-10">
+            <div className="w-full h-full flex items-start justify-center gap-12 mt-10 text-base">
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={htmlImg} alt="" />
+                    <img className="size-[60px]" src={htmlImg} alt="icone html" />
                     <span>HTML 5</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={cssImg} alt="" />
+                    <img className="size-[60px]" src={cssImg} alt="icone css" />
                     <span>CSS 3</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={javascriptImg} alt="" />
+                    <img className="size-[60px]" src={javascriptImg} alt="icone javascript" />
                     <span>Javascript</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={gitImg} alt="" />
+                    <img className="size-[60px]" src={gitImg} alt="icone git" />
                     <span>GIT</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={reactImg} alt="" />
+                    <img className="size-[60px]" src={reactImg} alt="icone react" />
                     <span>React</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={tailwindcssImg} alt="" />
+                    <img className="size-[60px]" src={tailwindcssImg} alt="icone tailwindcss" />
                     <span>Tailwindcss</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={typescriptImg} alt="" />
+                    <img className="size-[60px]" src={typescriptImg} alt="icone typescript" />
                     <span>Typescript</span>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={sassImg} alt="" />
+                    <img className="size-[60px]" src={sassImg} alt="icone sass" />
                     <span>Sass</span>
                 </div>
             </div>

@@ -7,7 +7,7 @@ export function About() {
                 <h2 className='text-4xl font-bold mb-5'>
                     Sobre mim<span className='text-detailColorOne'>.</span>
                 </h2>
-                <p className='text-justify'>
+                <p className='text-justify text-base leading-relaxed'>
                     Olá! Me chamo Nicolas Freitas, Cientista Ambiental de
                     formação e sempre trabalhei com organização, planejamento
                     estratégico e solução de problemas. Esse são alguns dos

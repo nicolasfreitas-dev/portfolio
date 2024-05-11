@@ -3,8 +3,8 @@ export function Home () {
         <section className="w-full h-screen bg-primaryColor">
             <div className="h-full flex flex-col justify-center items-center">
                 <div className="text-center">
-                    <h1 className="text-6xl font-bold text-detailColorOne">Nicolas Freitas</h1>
-                    <h2 className="text-6xl font-bold">
+                    <h1 className="text-[4rem] font-bold text-detailColorOne">Nicolas Freitas</h1>
+                    <h2 className="text-[4rem] font-bold">
                         Desenvolvedor <span className="text-detailColorOne">Front</span>-End
                     </h2>
                     <p className="text-base text-detailColorTwo">
@@ -15,7 +15,7 @@ export function Home () {
                 <div className="w-96 h-20 flex items-center justify-center gap-8">
                     <button 
                     className="w-32 h-10 bg-detailColorOne rounded-3xl flex justify-center items-center cursor-pointer hover:scale-110
-                    hover:bg-detailColorOneHover transition duration-300 ease-in"
+                    hover:bg-detailColorOneHover transition duration-200 ease-in"
                     >
                         <a
                             href="./../assets/CV - Nicolas Freitas.pdf"

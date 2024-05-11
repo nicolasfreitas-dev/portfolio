@@ -4,6 +4,7 @@ import { About } from "./components/About/about";
 import { Skills } from "./components/Skills/skills";
 import { Projects } from "./components/Projects/projects";
 import { Contato } from "./components/Contato/contato";
+import { Modal } from "./components/Modal/modal";
 
 function App() {
     return (
@@ -14,7 +15,8 @@ function App() {
             <Skills />
             <Projects />
             <Contato />
-            <footer className="flex items-center justify-center font-medium w-full h-10 text-secondaryColor bg-detailColorOne">
+            <Modal />
+            <footer className="flex items-center justify-center font-medium w-full h-10 text-secondaryColor bg-detailColorOne text-base">
                 <p>Copyright &copy; 2024 Nicolas Freitas</p>
             </footer>
         </div>

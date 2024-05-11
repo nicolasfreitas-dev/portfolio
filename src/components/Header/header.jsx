@@ -2,7 +2,7 @@ import "./header.css";
 
 export function Header() {
     return (
-        <header className="bg-primaryColor">
+        <header className="bg-primaryColor text-base">
             <nav className="flex flex-row justify-between items-center w-full h-16 px-4 py-5 font-bold" id="navbar">
                 <div className="ml-5">
                     <img

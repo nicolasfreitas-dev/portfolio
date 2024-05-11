@@ -1,6 +1,7 @@
-import devburguer from "./../../assets/devburguer.jpeg";
-import audionotes from "./../../assets/audionotes.png";
-import audiobook from "./../../assets/audiobook.png";
+import devburguer from "../../assets/devburguer.jpeg";
+import audionotes from "../../assets/audionotes.png";
+import audiobook from "../../assets/audiobook.png";
+import devmed from "../../assets/devmed.png";
 
 export const projetos = [
     {
@@ -28,10 +29,10 @@ export const projetos = [
         github: "https://github.com/nicolasfreitas-dev/audiobook-app"
     },
     {
-        image: "",
-        title: "",
-        description: "",
-        stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
+        image: devmed,
+        title: "DevMed",
+        description: "Página de gerenciamento de consultas médicas.",
+        stacks: ["HTML", "CSS", "Javascript"],
         deploy: "",
         github: ""
     },
