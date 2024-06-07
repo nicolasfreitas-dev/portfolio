@@ -6,11 +6,13 @@ export function Cards({ props }) {
                 alt={props.title}
                 className="w-96 h-56 object-cover "
             />
-            <div className="w-96 h-56 absolute inset-0 flex justify-center items-center bg-[black]/65 border-b-4 ]
-            border-b-detailColorOne">
+            <div 
+            className="w-96 h-56 absolute inset-0 flex justify-center items-center bg-[black]/65 border-b-4 ]
+            border-b-detailColorOne"
+            
+            >
                 <h4 className="font-bold">{props.title}</h4>
             </div>
-            
         </section>
     );
 }

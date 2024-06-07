@@ -1,10 +1,10 @@
-import { Header } from "./components/Header/header";
-import { Home } from "./components/Home/home";
-import { About } from "./components/About/about";
-import { Skills } from "./components/Skills/skills";
-import { Projects } from "./components/Projects/projects";
-import { Contato } from "./components/Contato/contato";
-import { Modal } from "./components/Modal/modal";
+import { Header } from "./components/Header/Header";
+import { Home } from "./components/Home/Home";
+import { About } from "./components/About/About";
+import { Skills } from "./components/Skills/Skills";
+import { Projects } from "./components/Projects/Projects";
+import { Contato } from "./components/Contato/Contato";
+import { Modal } from "./components/Modal/Modal";
 
 function App() {
     return (
