@@ -3,8 +3,9 @@ import audionotes from "../../assets/audionotes.png";
 import audiobook from "../../assets/audiobook.png";
 import devmed from "../../assets/devmed.png";
 
-export const projetos = [
+const projetos = [
     {
+        id: 1,
         image: devburguer,
         title: "Cardápio Digital",
         description: "Página de cardápio digital para realização de pedidos de uma hamburgueria fictícia.",
@@ -13,6 +14,7 @@ export const projetos = [
         github: "https://github.com/nicolasfreitas-dev/cardapio-digital"
     },
     {
+        id: 2,
         image: audionotes,
         title: "Audio Notes",
         description: "Aplicativo que converte automaticamente notas de áudio em texto.",
@@ -21,6 +23,7 @@ export const projetos = [
         github: "https://github.com/nicolasfreitas-dev/audio-notes-app"
     },
     {
+        id: 3,
         image: audiobook,
         title: "Audiobook",
         description: "Aplicativo de audiobook para reprodução de livros.",
@@ -29,6 +32,7 @@ export const projetos = [
         github: "https://github.com/nicolasfreitas-dev/audiobook-app"
     },
     {
+        id: 4,
         image: devmed,
         title: "DevMed",
         description: "Página de gerenciamento de consultas médicas.",
@@ -37,6 +41,7 @@ export const projetos = [
         github: ""
     },
     {
+        id: 5,
         image: "",
         title: "",
         description: "",
@@ -45,6 +50,7 @@ export const projetos = [
         github: ""
     },
     {
+        id: 6,
         image: "",
         title: "",
         description: "",
@@ -54,3 +60,4 @@ export const projetos = [
     },
 ]
 
+export default projetos;
