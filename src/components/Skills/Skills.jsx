@@ -9,8 +9,8 @@ import sassImg from "./../../assets/sass-svgrepo-com.svg";
 
 export function Skills() {
     return (
-        <section className="w-full h-screen bg-primaryColor flex flex-col items-center justify-start">
-            <h2 className="text-4xl font-bold">
+        <section className="w-full h-screen bg-primaryColor flex flex-col items-center justify-start" id="Skills">
+            <h2 className="text-4xl font-bold mt-24">
                 Habilidades<span className="text-detailColorOne">.</span>
             </h2>
             <div className="w-full h-full flex items-start justify-center gap-12 mt-10 text-base">

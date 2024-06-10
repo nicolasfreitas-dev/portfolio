@@ -2,7 +2,7 @@ import profilePic from './../../assets/perfil.jpg';
 
 export function About() {
     return (
-        <article className="w-full h-screen bg-primaryColor flex items-center justify-evenly">
+        <article className="w-full h-screen bg-primaryColor flex items-center justify-evenly" id='Sobre'>
             <div className="w-1/3">
                 <h2 className='text-4xl font-bold mb-5'>
                     Sobre mim<span className='text-detailColorOne'>.</span>

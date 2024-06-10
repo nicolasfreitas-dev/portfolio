@@ -1,6 +1,6 @@
 export function Home () {
     return (
-        <section className="w-full h-screen bg-primaryColor">
+        <section className="w-full h-screen bg-primaryColor" id="Home">
             <div className="h-full flex flex-col justify-center items-center">
                 <div className="text-center">
                     <h1 className="text-[4rem] font-bold text-detailColorOne">Nicolas Freitas</h1>

@@ -27,7 +27,7 @@ export function Header() {
                         </a>
                         <a
                         className="hover:text-detailColorOne"
-                        href="#Tecnologias"
+                        href="#Skills"
                         target="_self">
                             <li>Tecnologias</li>
                         </a>
@@ -39,7 +39,7 @@ export function Header() {
                         </a>
                         <a
                         className="hover:text-detailColorOne"
-                        href=""
+                        href="#Contato"
                         target="_self">
                             <li>Contato</li>
                         </a>
