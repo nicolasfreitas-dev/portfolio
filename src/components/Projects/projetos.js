@@ -40,24 +40,6 @@ const projetos = [
         deploy: "",
         github: ""
     },
-    {
-        id: 5,
-        image: "",
-        title: "",
-        description: "",
-        stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
-        deploy: "",
-        github: ""
-    },
-    {
-        id: 6,
-        image: "",
-        title: "",
-        description: "",
-        stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
-        deploy: "",
-        github: ""
-    },
 ]
 
 export default projetos;

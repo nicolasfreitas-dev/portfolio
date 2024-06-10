@@ -2,32 +2,38 @@ export function Modal({ project, closeModal }) {
     if (!project) return;
 
     return (
-        <div
-            className="w-screen h-screen bg-[black]/60 absolute"
-            onClick={closeModal}
-        >
-            <section className="w-10/12 h-5/6 bg-terciaryColor relative text-base left-32 top-20">
-                <div className="flex ">
-                    <div className="w-1/2 h-full bg-detailColorTwo">
+        <div className="w-screen h-screen bg-[black]/60 absolute">
+            <section className="flex flex-col justify-between w-10/12 h-3/5 bg-terciaryColor relative text-base left-32 top-44 rounded-lg">
+                <div className="flex">
+                    <div className="w-1/2 h-full m-5">
                         <img src={project.image} alt={project.title} />
                     </div>
-                    <div className="w-1/2 bg-detailColorTwo">
-                        <span className="cursor-pointer" onClick={closeModal}>
-                            <i className="fa-solid fa-xmark"></i>
+                    <div className="w-1/2 h-full flex flex-col gap-5 m-5">
+                        <span
+                            className="flex flex-row justify-between font-bold text-3xl text-"
+                            onClick={closeModal}
+                        >
+                            <h3>{project.title}</h3>
+                            <i className="fa-solid fa-xmark cursor-pointer"></i>
                         </span>
-                        <h3>{project.title}</h3>
                         <p>{project.description}</p>
-                        <div>{project.stacks}</div>
+                        <div className="">
+                            
+                        </div>
                     </div>
                 </div>
-                <div className="flex items-center gap-5 w-full h-16 bg-primaryColor">
-                    <button className="w-48 h-10 rounded-xl hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in bg-detailColorOne">
-                        <img src="" alt="" />
-                        <a href="">{project.deploy}</a>
+                <div className="flex justify-center items-center gap-5 w-1/2 pb-5">
+                    <button className="flex items-center justify-center gap-5 w-36 h-10 rounded-xl hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in bg-detailColorOne text-lg">
+                        <i className="fa-solid fa-globe"></i>
+                        <a href={project.deploy} target="_blank">
+                            Deploy
+                        </a>
                     </button>
-                    <button className="w-48 h-10 rounded-xl hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in bg-detailColorOne">
-                        <img src="" alt="" />
-                        <a href="">{project.github}</a>
+                    <button className="flex items-center justify-center gap-5 w-36 h-10 rounded-xl hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in bg-detailColorOne text-lg">
+                        <i className="fa-brands fa-github"></i>
+                        <a href={project.github} target="_blank">
+                            GitHub
+                        </a>
                     </button>
                 </div>
             </section>
