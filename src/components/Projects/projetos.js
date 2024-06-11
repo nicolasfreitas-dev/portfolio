@@ -45,7 +45,7 @@ const projetos = [
         stacks: [html, css, javascript],
         deploy: "",
         github: ""
-    },
+    }
 ]
 
 export default projetos;

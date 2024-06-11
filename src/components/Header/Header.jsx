@@ -29,7 +29,7 @@ export function Header() {
                         className="hover:text-detailColorOne"
                         href="#Skills"
                         target="_self">
-                            <li>Tecnologias</li>
+                            <li>Habilidades</li>
                         </a>
                         <a
                         className="hover:text-detailColorOne"

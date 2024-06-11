@@ -9,42 +9,42 @@ import sassImg from "./../../assets/sass-svgrepo-com.svg";
 
 export function Skills() {
     return (
-        <section className="w-full h-screen bg-primaryColor flex flex-col items-center justify-start" id="Skills">
-            <h2 className="text-4xl font-bold mt-24">
+        <section className="w-full h-[600px] bg-primaryColor flex flex-col items-center justify-start" id="Skills">
+            <h2 className="text-4xl font-bold mt-36">
                 Habilidades<span className="text-detailColorOne">.</span>
             </h2>
-            <div className="w-full h-full flex items-start justify-center gap-12 mt-10 text-base">
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={htmlImg} alt="icone html" />
-                    <span>HTML 5</span>
+            <div className="w-full h-full flex flex-wrap items-start justify-center gap-10 mt-14 text-base basis-0">
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={htmlImg} alt="icone html" />
+                    <span className="text-sm">HTML 5</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={cssImg} alt="icone css" />
-                    <span>CSS 3</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={cssImg} alt="icone css" />
+                    <span className="text-sm">CSS 3</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={javascriptImg} alt="icone javascript" />
-                    <span>Javascript</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={javascriptImg} alt="icone javascript" />
+                    <span className="text-sm">Javascript</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={gitImg} alt="icone git" />
-                    <span>GIT</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={gitImg} alt="icone git" />
+                    <span className="text-sm">GIT</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={reactImg} alt="icone react" />
-                    <span>React</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={reactImg} alt="icone react" />
+                    <span className="text-sm">React</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={tailwindcssImg} alt="icone tailwindcss" />
-                    <span>Tailwindcss</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={tailwindcssImg} alt="icone tailwindcss" />
+                    <span className="text-sm">Tailwindcss</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={typescriptImg} alt="icone typescript" />
-                    <span>Typescript</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={typescriptImg} alt="icone typescript" />
+                    <span className="text-sm">Typescript</span>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-2">
-                    <img className="size-[60px]" src={sassImg} alt="icone sass" />
-                    <span>Sass</span>
+                <div className="flex flex-col items-center justify-center gap-3 bg-modalBgColor border-b-4 border-b-detailColorOne size-32 shadow-sm rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transition-all hover:duration-300">
+                    <img className="size-[50px]" src={sassImg} alt="icone sass" />
+                    <span className="text-sm">Sass</span>
                 </div>
             </div>
         </section>
