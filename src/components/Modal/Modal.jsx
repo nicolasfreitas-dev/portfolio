@@ -2,23 +2,35 @@ export function Modal({ project, closeModal }) {
     if (!project) return;
 
     return (
-        <div className="w-screen h-screen bg-[black]/60 absolute">
-            <section className="flex flex-col justify-between w-10/12 h-3/5 bg-terciaryColor relative text-base left-32 top-44 rounded-lg">
+        <div className="w-screen h-screen bg-[black]/30 absolute">
+            <section className="flex flex-col justify-between w-10/12 h-3/5 bg-modalBgColor relative text-base left-32 top-44 rounded-xl shadow-md">
                 <div className="flex">
                     <div className="w-1/2 h-full m-5">
                         <img src={project.image} alt={project.title} />
                     </div>
                     <div className="w-1/2 h-full flex flex-col gap-5 m-5">
                         <span
-                            className="flex flex-row justify-between font-bold text-3xl text-"
+                            className="flex flex-row justify-between font-bold text-3xl text-violet-500"
                             onClick={closeModal}
                         >
-                            <h3>{project.title}</h3>
+                            <h3 className="text-violet-500">{project.title}</h3>
                             <i className="fa-solid fa-xmark cursor-pointer"></i>
                         </span>
-                        <p>{project.description}</p>
-                        <div className="">
-                            
+                        <p className="text-sm text-detailColorTwo">
+                            {project.description}
+                        </p>
+                        <div className="flex gap-3 w-full">
+                            {project.stacks.map((stack, index) => {
+                                return (
+                                    <span key={index}>
+                                        <img
+                                            src={stack}
+                                            alt="stacks"
+                                            className="size-8 hover:scale-110"
+                                        />
+                                    </span>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>

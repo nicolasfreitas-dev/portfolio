@@ -18,7 +18,7 @@ export function About() {
                 </p>
             </div>
             <div className="w-1/4">
-                <div className='flex justify-center items-center w-80 h-80'>
+                <div className='flex justify-center items-center w-80 h-80 border-2 rounded-full border-detailColorOne'>
                     <img
                         src={profilePic}
                         alt="Foto de perfil"

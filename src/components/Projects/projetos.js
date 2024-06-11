@@ -2,6 +2,12 @@ import devburguer from "../../assets/devburguer.jpeg";
 import audionotes from "../../assets/audionotes.png";
 import audiobook from "../../assets/audiobook.png";
 import devmed from "../../assets/devmed.png";
+import typescript from "../../assets/typescript-icon-svgrepo-com.svg";
+import react from "../../assets/react-svgrepo-com.svg";
+import html from "../../assets/html-5-svgrepo-com.svg";
+import css from "../../assets/css-3-svgrepo-com.svg";
+import tailwindcss from "../../assets/tailwind-svgrepo-com.svg";
+import javascript from "../../assets/js-svgrepo-com.svg";
 
 const projetos = [
     {
@@ -9,7 +15,7 @@ const projetos = [
         image: devburguer,
         title: "Cardápio Digital",
         description: "Página de cardápio digital para realização de pedidos de uma hamburgueria fictícia.",
-        stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
+        stacks: [html, css, javascript, tailwindcss],
         deploy: "https://cardapio-digital-nine.vercel.app/",
         github: "https://github.com/nicolasfreitas-dev/cardapio-digital"
     },
@@ -18,7 +24,7 @@ const projetos = [
         image: audionotes,
         title: "Audio Notes",
         description: "Aplicativo que converte automaticamente notas de áudio em texto.",
-        stacks: ["React", "Typescript", "Tailwindcss"],
+        stacks: [react, tailwindcss, typescript],
         deploy: "https://audio-notes.vercel.app/",
         github: "https://github.com/nicolasfreitas-dev/audio-notes-app"
     },
@@ -27,7 +33,7 @@ const projetos = [
         image: audiobook,
         title: "Audiobook",
         description: "Aplicativo de audiobook para reprodução de livros.",
-        stacks: ["HTML", "CSS", "Javascript", "Tailwindcss"],
+        stacks: [html, css, javascript, tailwindcss],
         deploy: "https://audiobook-app-eta.vercel.app/",
         github: "https://github.com/nicolasfreitas-dev/audiobook-app"
     },
@@ -36,7 +42,7 @@ const projetos = [
         image: devmed,
         title: "DevMed",
         description: "Página de gerenciamento de consultas médicas.",
-        stacks: ["HTML", "CSS", "Javascript"],
+        stacks: [html, css, javascript],
         deploy: "",
         github: ""
     },

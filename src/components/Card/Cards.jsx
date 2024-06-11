@@ -10,10 +10,11 @@ export function Cards({ project, isOpen }) {
                 className="w-96 h-56 object-cover"
             />
             <div 
-            className="w-96 h-56 absolute inset-0 flex justify-center items-center bg-[black]/65 border-b-4 ]
-            border-b-detailColorOne"
+            className="w-96 h-56 absolute inset-0 flex flex-col justify-center items-center bg-[black]/65 border-b-4 ]
+            border-b-detailColorOne gap-2"
             >
                 <h4 className="font-bold">{project.title}</h4>
+                <span className="text-sm">Ver mais</span>
             </div>
         </section>
     );
