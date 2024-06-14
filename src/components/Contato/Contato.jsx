@@ -7,7 +7,7 @@ export function Contato() {
             <h2 className="text-4xl font-bold mt-24">
                 Contato<span className="text-detailColorOne">.</span>
             </h2>
-            <form className="w-[35%] h-[65%] bg-modalBgColor mt-12 flex flex-col items-center justify-start gap-5 rounded-xl">
+            <form className="w-[450px] h-[480px] bg-modalBgColor mt-12 flex flex-col items-center justify-start gap-5 rounded-xl">
                 <div className="flex flex-col gap-2 items-start justify-center mt-8">
                     <label htmlFor="nome" className="text-lg ">
                         Nome
