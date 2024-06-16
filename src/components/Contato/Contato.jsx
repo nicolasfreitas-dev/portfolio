@@ -15,7 +15,7 @@ export function Contato() {
                     <input
                         type="text"
                         name="nome"
-                        className="w-96 h-10 rounded-lg outline-none text-black text-sm focus:border-2 focus:border-detailColorOneHover px-2"
+                        className="w-96 h-10 rounded-lg outline-none text-black text-sm focus:border-[3px] focus:border-detailColorOneHover px-2"
                         placeholder="Nome"
                     />
                 </div>
@@ -26,7 +26,7 @@ export function Contato() {
                     <input
                         type="text"
                         name="nome"
-                        className="w-96 h-10 rounded-lg outline-none text-black text-sm focus:border-2 focus:border-detailColorOneHover px-2"
+                        className="w-96 h-10 rounded-lg outline-none text-black text-sm focus:border-[3px] focus:border-detailColorOneHover px-2"
                         placeholder="@mail.com"
                     />
                 </div>
@@ -37,7 +37,7 @@ export function Contato() {
                     <textarea
                         type="text"
                         name="nome"
-                        className="w-96 h-32 rounded-lg outline-none text-black text-sm focus:border-2 focus:border-detailColorOneHover px-2"
+                        className="w-96 h-32 rounded-lg outline-none text-black text-sm focus:border-[3px] focus:border-detailColorOneHover px-2"
                         placeholder="Me envie uma mensagem :)"
                     />
                 </div>

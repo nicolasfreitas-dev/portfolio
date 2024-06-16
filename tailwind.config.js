@@ -14,6 +14,9 @@ export default {
         detailColorOneHover: "#9333ea",
         detailColorTwo: "#B3B3B3",
         modalBgColor: "#13131F"
+      },
+      screens: {
+        'xs': '320px'
       }
     },
   },

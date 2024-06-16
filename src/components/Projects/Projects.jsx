@@ -19,7 +19,7 @@ export function Projects() {
             <h2 className="text-4xl font-bold mt-36">
                 Projetos<span className="text-detailColorOne">.</span>
             </h2>
-            <div className="w-[1280px] h-screen flex flex-wrap basis-0 items-center justify-center gap-8 py-10">
+            <div className="md:w-[1280px] xs:w-full h-full md:flex md:flex-wrap md:basis-0 md:items-center md:justify-center md:gap-8 py-10 xs:flex xs:flex-wrap xs:gap-3 xs:items-center xs:justify-center">
                 {projetos.map((project, index) => {
                     return (
                         <Cards

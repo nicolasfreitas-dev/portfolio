@@ -12,3 +12,9 @@
 .navbar-fixed a:hover {
     color: #3b0764;
 }
+
+@media (min-width: 320px) {
+    .navbar-fixed a:hover {
+        color: #9333ea;
+    }
+}

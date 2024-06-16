@@ -2,8 +2,8 @@ export function Modal({ project, closeModal }) {
     if (!project) return;
 
     return (
-        <div className="w-screen h-[800px] bg-[black]/30 absolute">
-            <section className="flex flex-col justify-between w-10/12 h-3/5 bg-modalBgColor relative text-base left-32 top-44 rounded-xl shadow-md">
+        <div className="w-screen h-[800px] bg-[black]/40 absolute">
+            <section className="flex flex-col justify-between w-10/12 md:h-3/5 xs:h-2/4 bg-modalBgColor relative text-base md:left-32 md:top-44 xs:left-12 xs:top-40 rounded-xl shadow-md z-50">
                 <div className="flex">
                     <div className="w-1/2 h-full m-5">
                         <img src={project.image} alt={project.title} />
@@ -34,7 +34,7 @@ export function Modal({ project, closeModal }) {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center items-center gap-5 w-1/2 pb-5">
+                <div className="flex justify-center items-center gap-5 w-1/2 pb-5 xs:mx-auto">
                     <button className="flex items-center justify-center gap-5 w-36 h-10 rounded-xl hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in bg-detailColorOne text-lg">
                         <i className="fa-solid fa-globe"></i>
                         <a href={project.deploy} target="_blank">
