@@ -12,7 +12,7 @@ export function Home () {
                         de usuário.
                     </p>
                 </div>
-                <div className="xs:w-80 md:w-96 h-20 md:flex md:items-center md:justify-center md:gap-8 xs:flex xs:items-center xs:justify-center xs:mx-auto xs:gap-4 xs:mt-5">
+                <div className="xs:w-72 md:w-full h-20 md:flex md:items-center md:justify-center md:gap-8 xs:flex xs:items-center xs:justify-center xs:flex-wrap xs:mx-auto xs:gap-4 xs:mt-5">
                     <button 
                     className="w-32 h-10 bg-detailColorOne rounded-3xl flex justify-center items-center cursor-pointer hover:scale-110
                     hover:bg-detailColorOneHover transition duration-200 ease-in"
@@ -53,6 +53,16 @@ export function Home () {
                             className="flex items-center justify-center"
                         >
                             <i className="fa-brands fa-instagram text-[30px] text-secondaryColor"></i>
+                        </a>
+                    </button>
+                    <button className="size-12 rounded-[100%] bg-detailColorOne hover:scale-110 hover:bg-detailColorOneHover transition duration-300 ease-in">
+                        <a
+                            href="mailto:nicolasfpdev@gmail.com"
+                            rel="external"
+                            target="_blank"
+                            className="flex items-center justify-center"
+                        >
+                            <i className="fa-solid fa-envelope text-[30px] text-secondaryColor"></i>
                         </a>
                     </button>
                 </div>

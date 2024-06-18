@@ -17,7 +17,7 @@ export function About() {
                     usuário, performance, responsividade e SEO.
                 </p>
             </div>
-            <div className="md:w-1/4 xs:mt-5">
+            <div className="md:w-1/4 xs:hidden md:block">
                 <div className='flex justify-center items-center xs:w-[270px] md:w-80 xs:h-[270px] md:h-80 border-2 rounded-full border-detailColorOne'>
                     <img
                         src={profilePic}

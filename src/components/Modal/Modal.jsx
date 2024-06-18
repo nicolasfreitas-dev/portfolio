@@ -2,7 +2,7 @@ export function Modal({ project, closeModal }) {
     if (!project) return;
 
     return (
-        <div className="w-screen h-[800px] bg-[black]/40 absolute">
+        <div className="w-screen h-[900px] bg-[black]/40 absolute">
             <section className="flex flex-col justify-between w-10/12 md:h-3/5 xs:h-2/4 bg-modalBgColor relative text-base md:left-32 md:top-44 xs:left-12 xs:top-40 rounded-xl shadow-md z-50">
                 <div className="flex">
                     <div className="w-1/2 h-full m-5">

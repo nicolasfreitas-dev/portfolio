@@ -55,23 +55,16 @@ export function Header() {
                         >
                             <li>Projetos</li>
                         </a>
-                        <a
-                            className="hover:text-detailColorOne"
-                            href="#Contato"
-                            target="_self"
-                        >
-                            <li>Contato</li>
-                        </a>
                     </ul>
                 </div>
                 {/* <div>
                     CHANGE THEME
                 </div> */}
-                <div className="md:hidden xs:block">
+                <div className="md:hidden xs:block xs:mr-5">
                     <i className="fa-solid fa-bars hover:text-[#3b0764] cursor-pointer" id="header-menu" onClick={handleMenuOpened}></i>
                 </div>
                 <div className="flex flex-col items-center justify-start w-full h-screen bg-modalBgColor/90 absolute top-0 left-0 text-2xl z-50 hidden" id="menu-modal">
-                    <div className="relative left-52 top-3 xs:block" id="close-menu">
+                    <div className="relative md:left-52 md:top-3 xs:left-32 xs:top-3 xs:block" id="close-menu">
                         <i className="fa-solid fa-xmark hover:text-detailColorOneHover cursor-pointer" onClick={handleMenuClosed}></i>
                     </div>
                     <ul className="flex flex-col justify-between gap-10 mt-32">
@@ -102,13 +95,6 @@ export function Header() {
                             onClick={handleMenuClosed}
                         >
                             <li>Projetos</li>
-                        </a>
-                        <a
-                            href="#Contato"
-                            target="_self"
-                            onClick={handleMenuClosed}
-                        >
-                            <li>Contato</li>
                         </a>
                     </ul>
                 </div>

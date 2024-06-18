@@ -3,7 +3,6 @@ import { Home } from "./components/Home/Home";
 import { About } from "./components/About/About";
 import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects/Projects";
-import { Contato } from "./components/Contato/Contato";
 import { Modal } from "./components/Modal/Modal";
 
 function App() {
@@ -14,9 +13,8 @@ function App() {
             <About />
             <Skills />
             <Projects />
-            <Contato />
             <Modal />
-            <footer className="flex items-center justify-center font-medium w-full h-10 text-secondaryColor bg-detailColorOne text-base">
+            <footer className="flex items-center justify-center font-medium w-full h-10 text-secondaryColor bg-detailColorOne text-base relative bottom-0">
                 <p>Copyright &copy; 2024 Nicolas Freitas</p>
             </footer>
         </div>
