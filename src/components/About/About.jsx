@@ -3,11 +3,11 @@ import profilePic from './../../assets/perfil.jpg';
 export function About() {
     return (
         <article className="w-full h-screen bg-primaryColor xs:flex xs:flex-col md:flex md:flex-row items-center justify-evenly" id='Sobre'>
-            <div className="md:w-1/3 w-3/5">
+            <div className="md:w-1/3 xs:w-[90%]">
                 <h2 className='xs:text-2xl md:text-4xl font-bold mb-5'>
                     Sobre mim<span className='text-detailColorOne'>.</span>
                 </h2>
-                <p className='text-justify text-base leading-relaxed'>
+                <p className='text-justify text-base leading-relaxed xs:leading-loose xs:tracking-tighter'>
                     Olá! Me chamo Nicolas Freitas, Cientista Ambiental de
                     formação e sempre trabalhei com organização, planejamento
                     estratégico e solução de problemas. Esse são alguns dos
