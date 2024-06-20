@@ -17,6 +17,28 @@ export default {
       },
       screens: {
         'xs': '320px'
+      },
+      animation: {
+        typing: 'typing 2s steps(22), blink .5s step-end infinite alternate'
+      },
+      keyframes: {
+        typing: {
+          '0%': {
+            width: '0%',
+            visibility: 'hidden'
+          },
+          '100%': {
+            width: '100%',
+          }
+        },
+        blink: {
+          '50%': {
+            borderColor: 'transparent'
+          },
+        }
+      },
+      gridTemplateColumns: {
+        'custom': 'repeat(6, minmax(150px, 200px))'
       }
     },
   },

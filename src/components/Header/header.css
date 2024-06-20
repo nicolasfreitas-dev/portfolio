@@ -6,7 +6,7 @@
     width: 100%;
     background-color: #7e22ce;
     color: #FFFFFF;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
 }
 
 .navbar-fixed a:hover {

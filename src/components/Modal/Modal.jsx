@@ -3,7 +3,7 @@ export function Modal({ project, closeModal }) {
 
     return (
         <div className="w-screen md:h-[900px] xs:h-[180vh] bg-[black]/40 absolute">
-            <section className="flex flex-col justify-between w-10/12 md:h-3/5 xs:h-[35%] bg-modalBgColor relative text-base md:left-32 md:top-44 xs:left-7 xs:top-[45%] rounded-xl shadow-md z-50">
+            <section className="flex flex-col justify-between w-10/12 md:h-3/5 xs:h-[50%] bg-modalBgColor relative text-base md:left-32 md:top-44 xs:left-7 xs:top-[45%] rounded-xl shadow-md z-50">
                 <div className="md:flex md:flex-row xs:flex xs:flex-col-reverse xs:items-center xs:gap-5 xs:mt-5 md:mt-5">
                     <div className="md:w-1/2 xs:w-3/4 md:h-full md:m-5">
                         <img src={project.image} alt={project.title} />

@@ -57,9 +57,6 @@ export function Header() {
                         </a>
                     </ul>
                 </div>
-                {/* <div>
-                    CHANGE THEME
-                </div> */}
                 <div className="md:hidden xs:block xs:mr-5">
                     <i className="fa-solid fa-bars hover:text-[#3b0764] cursor-pointer" id="header-menu" onClick={handleMenuOpened}></i>
                 </div>

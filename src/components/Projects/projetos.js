@@ -14,7 +14,7 @@ const projetos = [
         id: 1,
         image: devburguer,
         title: "Cardápio Digital",
-        description: "Página de cardápio digital para realização de pedidos de uma hamburgueria fictícia.",
+        description: "Página de cardápio digital para realização de pedidos de uma hamburgueria fictícia. Com funcionalidade de de adição e remoção de itens do carrinho, pedidos no Whatsapp e detecção do horário de funcionamento do estabelecimendo.",
         stacks: [html, css, javascript, tailwindcss],
         deploy: "https://cardapio-digital-nine.vercel.app/",
         github: "https://github.com/nicolasfreitas-dev/cardapio-digital"
@@ -23,7 +23,7 @@ const projetos = [
         id: 2,
         image: audionotes,
         title: "Audio Notes",
-        description: "Aplicativo que converte automaticamente notas de áudio em texto.",
+        description: "Aplicativo de conversão automática de notas de áudio em texto. Conta ainda, com funcionalidades de anotações por texto, criação ou exclusão de notas e filtragem das notas pela barra de pesquisa.",
         stacks: [react, tailwindcss, typescript],
         deploy: "https://audio-notes.vercel.app/",
         github: "https://github.com/nicolasfreitas-dev/audio-notes-app"
@@ -32,7 +32,7 @@ const projetos = [
         id: 3,
         image: audiobook,
         title: "Audiobook",
-        description: "Aplicativo de audiobook para reprodução de livros.",
+        description: "Aplicativo de audio tradução para reprodução de livros.",
         stacks: [html, css, javascript, tailwindcss],
         deploy: "https://audiobook-app-eta.vercel.app/",
         github: "https://github.com/nicolasfreitas-dev/audiobook-app"
