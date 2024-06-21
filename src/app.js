@@ -10,6 +10,7 @@ window.addEventListener("scroll", () => {
         navbar.classList.remove("navbar-fixed");
         navbar.style.transition = "all .9s ease-out";
         navbar.style.scrollBehavior = "smooth";
+        navbar.style.scrollSnapStop = "always";
     }
 });
 

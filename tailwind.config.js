@@ -39,7 +39,7 @@ export default {
       },
       gridTemplateColumns: {
         'custom': 'repeat(6, minmax(150px, 200px))'
-      }
+      },
     },
   },
   plugins: [],
