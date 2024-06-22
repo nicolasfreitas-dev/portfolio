@@ -18,12 +18,15 @@
 ::-webkit-scrollbar-thumb {
     background-color: #7e22ce;
 }
-.navbar-fixed a:hover {
-    color: #3b0764;
-}
 
 @media (min-width: 320px) {
     .navbar-fixed a:hover {
         color: #9333ea;
+    }
+}
+
+@media (min-width: 720px) {
+    .navbar-fixed a:hover {
+        color: #3b0764;
     }
 }

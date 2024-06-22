@@ -2,7 +2,7 @@ import curriculo from "../../assets/cv-nicolas-freitas.pdf";
 
 export function Home () {
     return (
-        <section className="w-full h-screen bg-primaryColor" id="Home">
+        <section className="w-full h-screen bg-primaryColor">
             <div className="md:h-full md:flex flex-col justify-center items-center xs:pt-5">
                 <div className="flex flex-col justify-center items-center md:gap-5 text-center">
                     <div className="w-fit text-center">

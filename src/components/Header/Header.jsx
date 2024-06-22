@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import logoBranca from "./../../assets/logo-branca.png";
 
 export function Header() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -17,19 +18,19 @@ export function Header() {
     };
 
     return (
-        <header className="bg-primaryColor text-base">
+        <header className="bg-primaryColor text-base" id="Header">
             <nav
                 className="flex flex-row justify-between items-center w-full h-16 px-4 py-5 font-bold"
                 id="navbar"
             >
                 <div className="ml-5">
-                    <img src="" alt="logo" className="" />
+                    <a href="#Header"><img src={logoBranca} alt="logo" className="size-14 cursor-pointer" /></a>
                 </div>
                 <div className="md:flex flex-row justify-between gap-5 mr-5 xs:hidden">
                     <ul className="flex flex-row justify-between gap-5">
                         <a
                             className="hover:text-detailColorOne"
-                            href="#Home"
+                            href="#Header"
                             target="_self"
                         >
                             <li>Página Inicial</li>
