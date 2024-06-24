@@ -14,7 +14,7 @@ function App() {
             <Skills />
             <Projects />
             <Modal />
-            <footer className="flex items-center justify-center font-medium w-full h-10 text-secondaryColor bg-detailColorOne text-base relative bottom-0">
+            <footer className="flex items-center justify-center font-medium w-full md:h-10 text-secondaryColor bg-detailColorOne text-base relative bottom-0">
                 <p className="xs:text-sm">Copyright &copy; 2024 Nicolas Freitas</p>
             </footer>
         </div>

@@ -67,7 +67,7 @@ export function Header() {
                     </div>
                     <ul className="flex flex-col justify-between gap-10 mt-32">
                         <a
-                            href="#Home"
+                            href="#Header"
                             target="_self"
                             onClick={handleMenuClosed}
                         >
