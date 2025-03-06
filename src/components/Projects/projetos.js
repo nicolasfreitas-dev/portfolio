@@ -1,30 +1,33 @@
-import devburguer from "../../assets/devburguer.jpeg";
-import audionotes from "../../assets/audionotes.png";
 import typescript from "../../assets/typescript-icon-svgrepo-com.svg";
 import react from "../../assets/react-svgrepo-com.svg";
 import html from "../../assets/html-5-svgrepo-com.svg";
 import css from "../../assets/css-3-svgrepo-com.svg";
 import tailwindcss from "../../assets/tailwind-svgrepo-com.svg";
 import javascript from "../../assets/js-svgrepo-com.svg";
+import nextjs from "../../assets/nextjs.svg"
+
+import sobracash from "../../assets/sobra-cash.png"
+import dripstore from "../../assets/drip-store.png"
 
 const projetos = [
     {
         id: 1,
-        image: devburguer,
-        title: "Cardápio Digital",
-        description: "Página de cardápio digital para realização de pedidos de uma hamburgueria fictícia. Com funcionalidade de adição e remoção de itens do carrinho, pedidos no Whatsapp e detecção do horário de funcionamento do estabelecimendo.",
-        stacks: [html, css, javascript, tailwindcss],
-        deploy: "https://cardapio-digital-nine.vercel.app/",
-        github: "https://github.com/nicolasfreitas-dev/cardapio-digital"
+        image: sobracash,
+        title: "Sobra Cash",
+        description:
+            "Uma aplicação web, desenvolvida seguindo os princípios de mobile first, com o objetivo de facilitar a organização e o gerenciamento financeiro do usuário.",
+        stacks: [nextjs, typescript, tailwindcss],
+        deploy: "https://sobra-cash.vercel.app/",
+        github: "https://github.com/nicolasfreitas-dev/sobra-cash.git",
     },
     {
         id: 2,
-        image: audionotes,
-        title: "Audio Notes",
-        description: "Aplicativo de conversão automática de notas de áudio em texto. Conta ainda, com funcionalidades de anotações por texto, criação ou exclusão de notas e filtragem das notas pela barra de pesquisa.",
+        image: dripstore,
+        title: "Drip Store",
+        description: "E-commerce para venda de roupas e produtos esportivos.",
         stacks: [react, tailwindcss, typescript],
-        deploy: "https://audio-notes.vercel.app/",
-        github: "https://github.com/nicolasfreitas-dev/audio-notes-app"
+        deploy: "https://drip-store-frontend.vercel.app/",
+        github: "https://github.com/nicolasfreitas-dev/drip-store-frontend.git",
     },
     {
         id: 3,
@@ -33,7 +36,7 @@ const projetos = [
         description: "",
         stacks: [],
         deploy: "",
-        github: ""
+        github: "",
     },
     {
         id: 4,
@@ -42,7 +45,7 @@ const projetos = [
         description: "",
         stacks: [],
         deploy: "",
-        github: ""
+        github: "",
     },
     {
         id: 5,
@@ -51,7 +54,7 @@ const projetos = [
         description: "",
         stacks: [],
         deploy: "",
-        github: ""
+        github: "",
     },
     {
         id: 6,
@@ -60,8 +63,8 @@ const projetos = [
         description: "",
         stacks: [],
         deploy: "",
-        github: ""
+        github: "",
     },
-]
+];
 
 export default projetos;
