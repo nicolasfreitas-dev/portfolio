@@ -9,11 +9,10 @@ export function Home () {
                         <h1 className="xs:text-4xl md:text-6xl font-bold text-detailColorOne animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-2">Nicolas Freitas</h1>
                     </div>
                     <h2 className="xs:text-4xl md:text-6xl font-bold" data-aos="fade-right" data-aos-duration="3000">
-                        Desenvolvedor <span className="text-detailColorOne">Front</span>-End
+                        Desenvolvedor <span className="text-detailColorOne">Full</span>stack
                     </h2>
                     <p className="text-base text-detailColorTwo" data-aos="fade-right" data-aos-duration="3000">
-                        Desenvolvendo aplicações Front-End escaláveis com grande experiência
-                        de usuário.
+                        Desenvolvendo aplicações escaláveis de qualidade.
                     </p>
                 </div>
                 <div className="xs:w-72 md:w-full h-20 md:flex md:items-center md:justify-center md:gap-8 xs:flex xs:items-center xs:justify-center xs:flex-wrap xs:mx-auto xs:gap-4 xs:mt-5" data-aos="zoom-in" data-aos-duration="3000">
