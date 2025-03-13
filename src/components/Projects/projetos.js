@@ -6,19 +6,19 @@ import tailwindcss from "../../assets/tailwind-svgrepo-com.svg";
 import javascript from "../../assets/js-svgrepo-com.svg";
 import nextjs from "../../assets/nextjs.svg"
 
-import sobracash from "../../assets/sobra-cash.png"
+import wisebills from "../../assets/wisebills.png"
 import dripstore from "../../assets/drip-store.png"
 
 const projetos = [
     {
         id: 1,
-        image: sobracash,
-        title: "Sobra Cash",
+        image: wisebills,
+        title: "Wisebills",
         description:
             "Uma aplicação web, desenvolvida seguindo os princípios de mobile first, com o objetivo de facilitar a organização e o gerenciamento financeiro do usuário.",
         stacks: [nextjs, typescript, tailwindcss],
-        deploy: "https://sobra-cash.vercel.app/",
-        github: "https://github.com/nicolasfreitas-dev/sobra-cash.git",
+        deploy: "https://wisebills-coral.vercel.app/",
+        github: "https://github.com/nicolasfreitas-dev/wisebills.git",
     },
     {
         id: 2,
